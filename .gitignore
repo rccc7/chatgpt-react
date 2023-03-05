@@ -34,3 +34,8 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+#Ignored Items by RCCC
+serviceAccountKey.json
+RequirementsAndSteps.txt
+.vercel
