@@ -9,6 +9,8 @@ Application made in React to test and tryout the capabilities to interact with O
 - Ussage of NextJS' 13 Server components and use of client components alongside them.
 - Deployed to [Vercel](https://vercel.com/).
 
+Try it out here: <a href="https://chatgpt-react-two.vercel.app/" target="_blank">https://chatgpt-react-two.vercel.app/</a>
+
 ## Screenshots:
 
 <div align="center">
@@ -38,6 +40,8 @@ The following technologies, dependencies and services were used to implement thi
 - [Tailwind CSS](https://tailwindcss.com/).
 - [Firebase](https://firebase.com/).
 - [Firestore](https://firebase.google.com/products/firestore).
+- [useSWR](https://swr.vercel.app/) hook for data fetching. SWR is a strategy to first return the data from cache (stale), then send the fetch request (revalidate), and finally come with the up-to-date data.
+- [React Select](https://react-select.com/home). A flexible and beautiful Select Input control for ReactJS with multiselect, autocomplete, async and creatable support.
 - [Vercel](https://vercel.com/) to host the application.
 
 ## Disclaimer
