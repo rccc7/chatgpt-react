@@ -2,7 +2,7 @@
 
 Application made in React to test and tryout the capabilities to interact with OpenAI's ChatGPT. With this messenger app you can ask any question and receive an answer directly from ChatGpt through [ChatGPT API](https://platform.openai.com/). Main features:
 
-- Use and select different GhatGPT models when prompting the OpenAI API.
+- Use and select different GhatGPT models when prompting the OpenAI API. The default model is text-davinci-003, which is one of the best-trained models by the moment which gives more accurate answers
 - Login with your Google Account through [NextAuth](https://next-auth.js.org/) and Google Authentication.
 - Connect [Firebase v9 Firestore](https://firebase.google.com/products/firestore) database to save the chats and keep a history of conversations with ChatGPT.
 - Fully responsive site powered by TailwindCSS.
@@ -15,6 +15,7 @@ Try it out here: <a href="https://chatgpt-react-two.vercel.app/" target="_blank"
 
 <div align="center">
   <img src="screenshots/ChatGpt-react.jpg" alt="Features screenshot" width="700" style="width:700px;"/>
+  <p>Fully responsive: LogIn screen in mobile screen and main screen (in desktop)</p>
 </div>
 
 <div align="center">
@@ -24,7 +25,7 @@ Try it out here: <a href="https://chatgpt-react-two.vercel.app/" target="_blank"
 
 <div align="center">
   <img src="screenshots/ChatGptChat1.jpg" alt="Chat" width="700" style="width:700px;"/>
-  <p>Chat Example</p>
+  <p>Chat with ChatGPT</p>
 </div>
 
 ## Technologies:
