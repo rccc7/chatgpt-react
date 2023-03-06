@@ -1,27 +1,43 @@
-# Next.js + Tailwind CSS Example
+# ChatGPT Messenger
 
-This example shows how to use [Tailwind CSS](https://tailwindcss.com/) [(v3.2)](https://tailwindcss.com/blog/tailwindcss-v3-2) with Next.js. It follows the steps outlined in the official [Tailwind docs](https://tailwindcss.com/docs/guides/nextjs).
+Application made in React to test and tryout the capabilities to interact with OpenAI's ChatGPT. With this messenger app you can ask any question and receive an answer directly from ChatGpt through [ChatGPT API](https://platform.openai.com/). Main features:
 
-## Deploy your own
+- Use and select different GhatGPT models when prompting the OpenAI API.
+- Login with your Google Account through [NextAuth](https://next-auth.js.org/) and Google Authentication.
+- Connect [Firebase v9 Firestore](https://firebase.google.com/products/firestore) database to save the chats and keep a history of conversations with ChatGPT.
+- Fully responsive site powered by TailwindCSS.
+- Ussage of NextJS' 13 Server components and use of client components alongside them.
+- Deployed to [Vercel](https://vercel.com/).
 
-Deploy the example using [Vercel](https://vercel.com?utm_source=github&utm_medium=readme&utm_campaign=next-example) or preview live with [StackBlitz](https://stackblitz.com/github/vercel/next.js/tree/canary/examples/with-tailwindcss)
+## Screenshots:
 
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/git/external?repository-url=https://github.com/vercel/next.js/tree/canary/examples/with-tailwindcss&project-name=with-tailwindcss&repository-name=with-tailwindcss)
+<div align="center">
+  <img src="screenshots/ChatGpt-react.jpg" alt="Features screenshot" width="700" style="width:700px;"/>
+</div>
 
-## How to use
+<div align="center">
+  <img src="screenshots/MainScreen.jpg" alt="Main Screen" width="700" style="width:700px;"/>
+</div>
 
-Execute [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app) with [npm](https://docs.npmjs.com/cli/init), [Yarn](https://yarnpkg.com/lang/en/docs/cli/create/), or [pnpm](https://pnpm.io) to bootstrap the example:
+<div align="center">
+  <img src="screenshots/ChatGptChat.jpg" alt="Chat" width="700" style="width:700px;"/>
+</div>
 
-```bash
-npx create-next-app --example with-tailwindcss with-tailwindcss-app
-```
+## Technologies:
 
-```bash
-yarn create next-app --example with-tailwindcss with-tailwindcss-app
-```
+The following technologies, dependencies and services were used to implement this app:
 
-```bash
-pnpm create next-app --example with-tailwindcss with-tailwindcss-app
-```
+- [ReactJs](https://reactjs.org/).
+- TypeScript.
+- [NextJs 13](https://nextjs.org/).
+- [OpenAI ChatGPT API](https://platform.openai.com/).
+- [NextAuth](https://next-auth.js.org/) for sign in functionality with Google.
+- Google Oauth 2 through
+- [Tailwind CSS](https://tailwindcss.com/).
+- [Firebase](https://firebase.com/).
+- [Firestore](https://firebase.google.com/products/firestore).
+- [Vercel](https://vercel.com/) to host the application.
 
-Deploy it to the cloud with [Vercel](https://vercel.com/new?utm_source=github&utm_medium=readme&utm_campaign=next-example) ([Documentation](https://nextjs.org/docs/deployment)).
+## Disclaimer
+
+This is just a demo for testing purposes only and to demonstrate React & Next.js capabilities.
