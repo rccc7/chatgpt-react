@@ -17,10 +17,12 @@ Application made in React to test and tryout the capabilities to interact with O
 
 <div align="center">
   <img src="screenshots/MainScreen1.jpg" alt="Main Screen" width="700" style="width:700px;"/>
+  <p>Main Screen</p>
 </div>
 
 <div align="center">
   <img src="screenshots/ChatGptChat1.jpg" alt="Chat" width="700" style="width:700px;"/>
+  <p>Chat Example</p>
 </div>
 
 ## Technologies:
