@@ -25,6 +25,14 @@ function Login() {
       >
         Sign In to use ChatGPT
       </button>
+      <h1 className="text-black text-sm bg-yellow-300 max-w-md mt-10 p-5 border rounded-md border-black">
+        Disclaimer: This is just a test app which simulates the original ChatGPT
+        app and uses the ChatGPT API to demonstrate the capabilities of ReactJS
+        and NextJS 13.{" "}
+        <span className="font-bold">
+          It's not the official ChatGPT platform
+        </span>
+      </h1>
     </div>
   );
 }
