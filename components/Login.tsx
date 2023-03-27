@@ -32,7 +32,7 @@ function Login() {
         application will only have access to your email, user name, and profile
         picture to provide you with a more personalized user experience.
         <span className="font-bold">
-          This is not the official ChatGPT platform
+          THIS IS NOT THE OFFICIAL ChatGPT PLATFORM.
         </span>
       </h1>
     </div>
