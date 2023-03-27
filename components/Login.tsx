@@ -18,12 +18,12 @@ function Login() {
         // attribution="ChatGPT, Public domain, via Wikimedia Commons"
       />
       <button
-        className="text-white font-bold text-3xl animate-pulse pt-4"
+        className="text-white font-bold text-2xl animate-pulse pt-4"
         // Here, if we pass google as a parameter then NextAuth will automatically login with google
         //instead of listing the auth providers first.
         onClick={() => signIn("google")}
       >
-        Sign In with Google to use ChatGPT
+        Sign In with Google to use ChatGPT DEMO
       </button>
       <h1 className="text-black text-sm bg-yellow-300 max-w-md mt-10 p-5 border rounded-md border-black">
         Disclaimer: This is just a demo app which simulates the original ChatGPT
