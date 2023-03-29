@@ -23,7 +23,7 @@ function Login() {
         //instead of listing the auth providers first.
         onClick={() => signIn("google")}
       >
-        Sign In with Google to use ChatGPT DEMO
+        Sign In with Google to use CGPT-REACT DEMO
       </button>
       <h1 className="text-black text-sm bg-yellow-300 max-w-md mt-10 p-5 border rounded-md border-black">
         Disclaimer: This is just a demo app which simulates the original ChatGPT

@@ -21,6 +21,7 @@ export default async function RootLayout({
   console.log("The session>>>", session);
   return (
     <html lang="en">
+      <title>CGPT-React</title>
       <body>
         <SessionProvider session={session}>
           {!session ? (
