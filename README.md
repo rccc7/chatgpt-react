@@ -9,7 +9,7 @@ Application made in React to test and tryout the capabilities to interact with O
 - Ussage of NextJS' 13 Server components and use of client components alongside them.
 - Deployed to [Vercel](https://vercel.com/).
 
-Try it out here: <a href="https://chatgpt-react-two.vercel.app/" target="_blank">https://chatgpt-react-two.vercel.app/</a>
+Try it out here: <a href="https://cgpt-react.vercel.app/" target="_blank">https://cgpt-react.vercel.app/</a>
 
 ## Screenshots:
 
